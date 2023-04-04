@@ -24,7 +24,7 @@ def main():
     num2 = st.number_input('Enter the second number and press Enter...', key=2, value=0)
     num3 = st.number_input('Enter the third number and press Enter...', key=3, value=0)
     st.write("---")
-    st.write("###### The numbers entered by you are :red[**{}**], :red[**{}**] and :red[**{}**]".format(num1, num2,num3))
+    st.write("###### The numbers entered by you are :red[**{}**], :red[**{}**] and :red[**{}**]?".format(num1, num2,num3))
 
     choice = st.radio(
         "Kindly confirm :green[**Yes**] to see the result.",
