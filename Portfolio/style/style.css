@@ -1,0 +1,45 @@
+/* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Style inputs with type="text", select elements and textareas */
+input[type=message], input[type=email], input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+
+  footer {
+    visibility: hidden;
+  }
+  /* header {
+    visibility: hidden;
+  } */
+
+  .button {
+    border: none;
+    color: rgb(235, 15, 15);
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius:10px;
+  }
+  
+  .button2 {
+    background-color: rgb(237, 236, 236);
+    border: 1px solid #E5E4E2;
+  }
+  
+  .button2:hover {
+    background-color: #FF5733;
+    color: white;
+    border: 1px solid #FF5733;
+  }
+  
